@@ -298,7 +298,6 @@ SlVector3 Tracer::trace(const Ray &r, double t0, double t1) const {
     for (unsigned int i=0; i<surfaces.size(); i++) {
  	    const std::pair<Surface *, Fill> sf = surfaces[i];
 	    if (s.first->intersect(r, t0, t1, hr)) {
-	        t1 = hr.t;
 	        hr.f = sf.second;
 	        hit = true;
 	    }
