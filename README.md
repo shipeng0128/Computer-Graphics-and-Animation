@@ -1,6 +1,6 @@
 # Computer-Graphics-and-Animation
 -Example Images: The following images are the outputs of the ray-tracing program using the images from the input files as inputs.
-
+![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/balls.png) ![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/gears.png)
 
 
 
@@ -25,3 +25,4 @@ for my laptop to generate a output. As a result, it makes my debugging process v
     When writin the code with some complex formula, it is very confusing to me that I have to implement a calculation seperately. For example, when writing the
 shading, the program can only run with code like this.
 ![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/code.jpg)
+I used to write these three lines of code into one line. However, in this case, the program can not compile.
