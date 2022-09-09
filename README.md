@@ -1,1 +1,25 @@
 # Computer-Graphics-and-Animation
+-Example Images: The following images are the outputs of the ray-tracing program using the images from the input files as inputs.
+
+< img src="images/code.jpg" />
+
+
+-Images with problems: The following images shows the one of the bugs that I spent most time debuging.
+    For this image, there are too much noise in it. And there are some parts of the image that did not get correctly generated.
+  
+  
+
+Description of my implementation:
+    For this project, I implemented a ray tracer, which is a computer rendering teahnique that can realistically simulate the lighting of a scene and an object.
+To achieve such object, according to the order of my implemenation, at first, the program traverse through the surface of the object to see what a ray will hit 
+on the object. To do this, I implemented the intersect() function, which helps the program to check if the ray hits the triangles and spheres that form the 
+object together. After accomplishing this step, the output will be an outline of the image. Then, the next step will be the shaing part. For this part, the 
+program will check for the shadows first. Then, the program will do the shading. For the code of shading, most of the logic and code are copied from the first 
+assignment of this course.(The shading assignment). Finally, the last part I implemented is the reflection and the refraction.
+
+The problems that I encountered:
+    To me, the biggest problem I faced is debugging. Most of the time, it takes me a lot of time to debug. When implementing the intersect() function,
+I am having a bug which can not generate any output. In this case, I have no idea what the problem with my code is. In addition, the running time of the 
+program troubles me a lot as well. After implementing most parts of the program, I start to debug the program as a whole. At this time, it takes several minutes
+for my laptop to generate a output. As a result, it makes my debugging process very inefficient. 
+    When writin the code with some complex formula, it is very confusing to me that I have to implement a calculation seperately. For example, when writing the
