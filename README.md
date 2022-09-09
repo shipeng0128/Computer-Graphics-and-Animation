@@ -1,6 +1,6 @@
 # Computer-Graphics-and-Animation
 -Example Images: The following images are the outputs of the ray-tracing program using the images from the input files as inputs.
-
+![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/code.jpg)
 < img src="images/code.jpg" />
 
 
