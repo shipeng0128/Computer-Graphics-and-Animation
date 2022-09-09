@@ -1,7 +1,7 @@
 # Computer-Graphics-and-Animation
 -Example Images: The following images are the outputs of the ray-tracing program using the images from the input files as inputs.
-![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/code.jpg)
-< img src="images/code.jpg" />
+
+
 
 
 -Images with problems: The following images shows the one of the bugs that I spent most time debuging.
@@ -23,3 +23,5 @@ I am having a bug which can not generate any output. In this case, I have no ide
 program troubles me a lot as well. After implementing most parts of the program, I start to debug the program as a whole. At this time, it takes several minutes
 for my laptop to generate a output. As a result, it makes my debugging process very inefficient. 
     When writin the code with some complex formula, it is very confusing to me that I have to implement a calculation seperately. For example, when writing the
+shading, the program can only run with code like this.
+![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/code.jpg)
