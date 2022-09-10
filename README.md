@@ -7,8 +7,7 @@
 -Images with problems: The following images shows the one of the bugs that I spent most time debuging.
     For this image, there are too much noise in it. And there are some parts of the image that did not get correctly generated.
   ![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/test20.jpg)
-  In this image of ball, there many parts of the ball that are not correctly rendered. After checking each part of the code, I found out that is was caused by incorrect implementation of the formula in the intersect() function and the shading part.
-  
+  In this image of ball, there many parts of the ball that are not correctly rendered. After checking each part of the code, I found out that is was caused by incorrect implementation of the formula in the intersect() function and the shading part. Besides, the color of this image does not seem right to me. TA Yiwen gave me a lot of suggestions on looking for the problem with it. However, it failed to pinpoint the cause of it and correct it. In the future, I may try to work on this and find the problem.
   
 
 Description of my implementation: 
