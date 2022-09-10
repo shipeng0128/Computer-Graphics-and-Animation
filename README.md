@@ -18,7 +18,9 @@ The problems that I encountered:
     To me, the biggest problem I faced is debugging. Dubugging takes most time. When implementing the intersect() function, I am having a bug that can not generate any output. In this case, I have no idea what the problem with my code is. In addition, the running time of the program troubles me a lot as well. After implementing most parts of the program, I start to debug the program as a whole. At this time, it takes several minutes for my laptop to generate an output. As a result, it makes my debugging process very inefficient. 
     After finishing implementing all the functions, I started to debug as a whole. It is very complicated for me to debug, because many code may be involved in the bug. I have to rule out all possible causes of the bug one by one. And ray tracer is unlike any other programs that I wrote before. I have no idea how to write some test cases for each part of the code. Therefore, it is very hard for me to debug.
     When writing the code with some complex formula, it is very confusing to me that I have to implement a calculation separately. For example, when writing the shading, the program can only run with code like this.
+
 ![image](https://raw.githubusercontent.com/shipeng0128/Computer-Graphics-and-Animation/main/images/code.jpg)
+
 I used to write these three lines of code into one line. However, in this case, the program can not compile.
     Finally, the last big problem I encountered is the color of the ball. The color of it is always blue. I checked my code over and over again and asked TA Yiwen for help. But, I could not find the problem with it. Also, because of the long-running time of my program, the efficiency of debugging is pretty slow. As a result, I failed to solve this problem.
     
